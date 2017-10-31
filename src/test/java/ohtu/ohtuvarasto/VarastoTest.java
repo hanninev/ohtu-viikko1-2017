@@ -42,7 +42,7 @@ public class VarastoTest {
     public void lisaysLisaaPienentaaVapaataTilaa() {
         varasto.lisaaVarastoon(8);
 
-        // vapaata tilaa pitäisi vielä olla tilavuus-lisättävä määrä eli 2
+        // vapaata tilaa pitäisi vielä olla tilavuus-lisättävä määrä eli 2.
         assertEquals(2, varasto.paljonkoMahtuu(), vertailuTarkkuus);
     }
 
