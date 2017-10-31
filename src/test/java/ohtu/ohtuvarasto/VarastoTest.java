@@ -34,7 +34,7 @@ public class VarastoTest {
     public void lisaysLisaaSaldoa() {
         varasto.lisaaVarastoon(8);
 
-        // saldon pitäisi olla sama kun lisätty määrä
+        // saldon pitäisi olla sama kun lisätty määrä.
         assertEquals(8, varasto.getSaldo(), vertailuTarkkuus);
     }
 
